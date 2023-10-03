@@ -38,7 +38,7 @@ ul {
 .header1 {
   margin: 0px;
   font-size: 46px;
-  font-weight: bolder;
+  font-weight: 700;
 }
 
   .main-text{
@@ -63,7 +63,7 @@ ul {
   
   .sig-up {
     border-radius: 8px;
-    font-weight: bold;
+    font-weight: 700;
     color: white;
     margin: 0px;
     border: 0px;
@@ -94,7 +94,7 @@ ul {
   .info{
     text-align: center;
     font-size: 36px;
-    font-weight: bolder;
+    font-weight: 700;
   }
 
   .container{
@@ -132,7 +132,7 @@ ul {
     margin: 0px;
     width: 800px;
     text-align: end;
-    font-weight: bolder;
+    font-weight: 700;
   }
 
   .action-container{
@@ -158,6 +158,10 @@ ul {
   .actionBox1 > p{
     color: #F9FAF8;
     margin: 0px;
+  }
+
+  .actionBox1 > #secondary{
+    color: #E5E7EB;
   }
 
   #white.sig-up{
