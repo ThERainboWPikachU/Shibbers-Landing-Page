@@ -1,0 +1,176 @@
+*{
+  font-family: 'roboto';
+}
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    gap: 8px;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .header {
+    display: flex;
+    height: 36px;
+    color: white;
+    background-color: #1F2937;
+    padding: 24px;
+    margin: opx;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+  }
+
+  .main{
+    background-color: #1F2937;
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.header1 {
+  margin: 0px;
+  font-size: 46px;
+  font-weight: bolder;
+}
+
+  .main-text{
+    padding-bottom: 70px;
+    margin: 30px;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: 100px;
+    width: 450px;
+  }
+
+  .image{
+    object-fit: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 450px;
+  }
+  
+  .sig-up {
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+    margin: 0px;
+    border: 0px;
+    background-color: #3882f6;
+    padding: 8px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .shiba_logo{
+    object-fit: cover;
+    width: 75px;
+    border-radius: 25%;
+    height: 75px;
+    margin: 0px;
+    border: 4px solid #3882f6;
+  }
+
+  .image-block{
+    margin: 16px;
+    gap: 16px;
+  }
+
+  .image-block > p {
+    text-align: center;
+  }
+
+  .info{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+  }
+
+  .container{
+    display: flex;
+    justify-content: center;
+  }
+
+  .med-img{
+    border-radius: 5%;
+    border: 4px solid #3882f6;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+  }
+
+  .quote{
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+    text-align: center;
+    align-items: center;
+    background-color: #E5E7EB;
+  }
+
+  .thor-quote{
+    margin: 0px;
+    font-size: 36px;
+    width: 800px;
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  .quote-reference{
+    margin: 0px;
+    width: 800px;
+    text-align: end;
+    font-weight: bolder;
+  }
+
+  .action-container{
+    justify-content: center;
+    display: flex;
+  }
+
+  .callToAction{
+    align-items: center;
+    display: flex;
+    margin: 30px;
+    width: 900px;
+    border: 4px solid #3882f6;
+    background-color: #3882f6;
+    border-radius: 8px;
+  }
+
+  .actionBox1{
+    padding: 30px;
+    display: box;
+  }
+
+  .actionBox1 > p{
+    color: #F9FAF8;
+    margin: 0px;
+  }
+
+  #white.sig-up{
+    text-align: center;
+    border: 2px solid white;
+    height: 35px;
+    margin-left: 150px;
+  }
+
+  footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+  }
